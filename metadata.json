@@ -1,0 +1,6 @@
+{
+  "name": "École 221",
+  "description": "Portail étudiant et administrateur pour la gestion académique de l'École 221.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

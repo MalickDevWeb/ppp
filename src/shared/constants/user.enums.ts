@@ -1,0 +1,10 @@
+export const ROLE_UTILISATEUR = {
+  ETUDIANT:    'ETUDIANT',
+  PROFESSEUR:  'PROFESSEUR',
+  ADMIN:       'ADMIN',
+  SUPER_ADMIN: 'SUPER_ADMIN',
+  SECRETAIRE:  'SECRETAIRE',
+  COMPTABLE:   'COMPTABLE',
+} as const;
+
+export type RoleUtilisateur = typeof ROLE_UTILISATEUR[keyof typeof ROLE_UTILISATEUR];
